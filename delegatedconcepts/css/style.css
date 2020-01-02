@@ -1,0 +1,251 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: 0 auto 50px auto;
+    /*background-color: rgb(204,192,183);*/
+    background-image: url('../images/background.gif');
+    color: black;
+    line-height: 17px;
+}
+
+.main-wrapper {
+    width: 945px;
+    margin: 0 auto 60px auto;
+
+
+}
+
+p {
+    margin: 20px 0 0 0;
+}
+
+.content {
+    clear: both;
+    background-color: rgb(233,229,211);
+    padding: 25px 35px 55px 35px;
+
+
+}
+
+h1 {
+    color: black;
+    font-size: 26px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    margin-top: 36px;
+    font-size: 20px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+h3 {
+    margin-top: 22px;
+    clear: both;
+    font-size: 14px;
+    color: black;
+}
+
+p {
+    margin-top: 15px;
+}
+
+ul {
+    margin-top: 18px;
+}
+
+ul li {
+    margin-top: 7px;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header .logo {
+    text-align: left;
+    margin: 0;
+    padding-top: 45px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    position: relative;
+    left: -52px;
+}
+
+.header img.logo {
+    width: 450px;
+}
+
+.header .language-switcher {
+    float: right;
+    padding: 0;
+    margin: 6px 6px 0 0;
+}
+
+.header .menu {
+    margin: 5px 0 0 0;
+    text-align: left;
+    padding-top: 6px;
+}
+.header .menu a {
+    color:black;
+}
+
+.header .menu .menu-item a:hover,
+#active-menu a:hover {
+        background-color: rgb(233,229,211);
+        color: black;
+}
+
+.header .menu .menu-item a,
+.header .menu .menu-item span{
+    text-decoration: none;
+    font-weight: bold;    
+    display: block;
+    width: 90px;
+    text-align: center;
+    float: left;
+    padding-top: 6px;
+    height: 24px;
+    border-top: 1px solid rgb(233,229,211);
+    border-right: 1px solid rgb(233,229,211);
+    border-left: 1px solid rgb(233,229,211);
+    
+}
+
+.header .menu .menu-item {
+   float: left;
+   position: relative;
+}
+
+#active-menu a {
+    color: rgb(135,135,135);
+    font-weight: bold;
+}
+
+.sections {
+    float: left;
+    width: 220px;
+    height: 300px;
+    border-right: 2px solid black;
+    margin-right: 20px;
+    padding-top: 2px;
+    font-weight: bold;
+}
+
+.sections .active {
+    color: rgb(100,100,100);
+}
+
+.description {
+    padding-top: 1px;
+}
+
+.content img {
+    border: 1px solid rgb(204,192,183);
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 12px 0 18px 0;
+}
+
+table.image_table, table.image_table tr td {
+    border: 0 solid transparent;
+}
+
+table.image_table tr td {
+    padding-left: 18px;
+    padding-bottom: 30px;
+}
+
+table.image_table img {
+    height: 250px;
+}
+
+table.image_table p {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+img.models {
+    height: 110px;
+    display: block;
+    float: left;
+    margin: 2px 45px 45px 0;
+}
+
+.dividing-row {
+    border-bottom: 2px dotted rgb(200,200,200);
+    clear:both;
+}
+
+table.form-table, table.form-table tr td {
+    border: 0 none transparent;
+    vertical-align: middle;
+}
+
+.required {
+    color: red;
+    font-weight: bold;
+}
+
+label, fieldset {
+    font-weight: bold;
+}
+
+legend {
+    margin-bottom: 6px;
+}
+
+fieldset {
+    width: 400px;
+    padding: 9px;
+    margin: 0 0 16px 0;
+}
+
+fieldset label {
+    font-weight: normal;
+}
+
+form {
+    margin-top: 26px;
+}
+
+.checkbox-group {
+    margin-bottom: 16px;
+}
+
+ul.errors li {
+    font-size: 11px;
+    color: red;
+    margin-top: 3px;
+}
+
+img.in-text {
+    float: right;
+    width: 350px;
+    margin: 0 10px 25px 25px;
+}
+
+img {
+    border: 0 none transparent;
+}
+
+img.border {
+    border: 1px solid black;
+}
+
+select {
+    display: block;
+    float: left;
+    margin: 0 12px 9px 0;
+}
